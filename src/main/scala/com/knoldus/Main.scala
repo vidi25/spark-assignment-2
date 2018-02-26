@@ -28,9 +28,12 @@ object Main extends App {
   val outputDataByYear = finalData.map{case (w,(x,(y,z))) => (w, x, z.getYear + 1900) -> y }
     .reduceByKey(_ + _)
       .map(x => s"${x._1._2}#${x._1._3}###${x._2}")
-  val outputDataByMonth = finalData.map{case (w,(x,(y,z))) => (w, x, z.getYear,z.getMonth) -> y }
+  val outputDataByMonth = finalData.map{case (w,(x,(y,z))) => (w, x, z.getYear + 1900,z.getMonth) -> y }
     .reduceByKey(_ + _)
-    .map(x => s"${x._1._2}#")
-  val outputDataByDay = finalData.map{case (w,(x,(y,z))) => (w, x, z.getYear,z.getMonth,z.getDate) -> y }.reduceByKey(_ + _)
-
+    .map(x => s"${x._1._2}#${x._1._3}#${x._1._4}##${x._2}")
+  val outputDataByDay = finalData.map{case (w,(x,(y,z))) => (w, x, z.getYear + 1900,z.getMonth,z.getDate) -> y }
+    .reduceByKey(_ + _)
+    .map(x => s"${x._1._2}#${x._1._3}#${x._1._4}#${x._1._5}#${x._2}")
+  val finalDataRdd = outputDataByYear union outputDataByMonth union outputDataByDay
+  finalDataRdd.repartition(1).saveAsTextFile("src/main/resources/output.txt")
 }

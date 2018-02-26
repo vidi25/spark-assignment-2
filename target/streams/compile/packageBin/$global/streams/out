@@ -2,6 +2,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$14.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$14.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus[0m
 [0m[[0m[0mdebug[0m] [0m[0m	file1.txt[0m
@@ -10,6 +12,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	log4j.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/log4j.properties[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$12.class[0m
@@ -34,6 +40,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$13.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$13.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/IdeaProjects/spark-assignment-2/target/scala-2.11/classes/com/knoldus/Main$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/knoldus/Main$delayedInit$body.class[0m
